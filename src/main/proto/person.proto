@@ -1,0 +1,16 @@
+syntax = "proto3";
+option java_multiple_files = true;
+option java_package = "com.sat.grpcmodels";
+
+/*
+  This is my proto file comments.
+  To generate javascript files use from protobuf/src/main/proto dir
+  $../../../target/protoc-plugins/protoc-3.21.7-linux-x86_64.exe --js_out=./ *.proto -- This didn't ran
+  $./target/protoc-plugins/protoc-3.21.7-linux-x86_64.exe --python_out=./src/main/proto/ src/main/proto/*.proto -- This ran
+ */
+message Person {
+  // Name Field comment
+  string name = 1;
+  // Age integer field.
+  int32 age = 2;
+}
