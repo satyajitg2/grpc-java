@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="083834f6-a403-4964-aaea-c5523ce278e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/protoeditor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sat/protobuf/CompositeClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sat/protobuf/MapProto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sat/protobuf/TodoServerFlutter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sat/protobuf/TodoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/proto/common/common.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="083834f6-a403-4964-aaea-c5523ce278e7" name="Changes" comment="Updated code and rebuilt todoservice for flutter full stack grpc dart server in java">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sat/postgresdb/PostGresDb.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/proto/person.proto" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/proto/person.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sat/protobuf/TodoServerFlutter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sat/protobuf/TodoServerFlutter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,8 +81,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PerformanceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sat.protobuf.PerformanceTest" />
+    <configuration name="PersonDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sat.protobuf.PersonDemo" />
       <module name="protobuf" />
       <extension name="coverage">
         <pattern>
@@ -100,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sat.protobuf.PersonDemo" />
+    <configuration name="PostGresDb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sat.postgresdb.PostGresDb" />
       <module name="protobuf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sat.protobuf.*" />
+          <option name="PATTERN" value="com.sat.postgresdb.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,10 +123,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.TodoServerFlutter" />
+        <item itemvalue="Application.PostGresDb" />
         <item itemvalue="Application.CompositeClass" />
         <item itemvalue="Application.PersonDemo" />
         <item itemvalue="Application.MapProto" />
-        <item itemvalue="Application.PerformanceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -145,6 +139,14 @@
       <option name="presentableId" value="Default" />
       <updated>1695992157046</updated>
     </task>
+    <task id="LOCAL-00001" summary="Updated code and rebuilt todoservice for flutter full stack grpc dart server in java">
+      <created>1696148532696</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696148532696</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,6 +171,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated code and rebuilt todoservice for flutter full stack grpc dart server in java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated code and rebuilt todoservice for flutter full stack grpc dart server in java" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/protobuf$CompositeClass.ic" NAME="CompositeClass Coverage Results" MODIFIED="1696031567293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
